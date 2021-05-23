@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
-    <title>aSaas | HTML OnePage Template</title>
+    <title>{{ config('app.name') }}</title>
     @include('front.partials.styles')
     <script src="{{ asset('front/js/vendor/modernizr-2.8.3.min.js') }}"></script>
     <script src="https://kit.fontawesome.com/ea9a619c4d.js" crossorigin="anonymous"></script>
